@@ -1,5 +1,7 @@
 # Visual Question Answering App
 
+![Visual Question Answering](path_to_your_image)
+
 This project explores the ViLT (Vision-and-Language Transformer) model from Hugging Face to create a Visual Question Answering App that answers questions about images. We implement the ViLT model in two different ways: as an API using FastAPI and as an interactive app using Streamlit.
 
 ## Features
@@ -29,17 +31,16 @@ The Streamlit implementation provides a user-friendly frontend interface where u
 - **Features**:
   - Image uploader
   - Text input field for questions
-  - Display of the predicted answer
+  - Display the predicted answer
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.7+
+- Python 3.10+
 - FastAPI
 - Streamlit
 - Hugging Face Transformers
-- Pydantic
 - Pillow
 
 ### Installation
@@ -97,3 +98,4 @@ To use the FastAPI endpoint, you can send a POST request to `http://127.0.0.1:80
 
 ```bash
 curl -X POST "http://127.0.0.1:8000/predict" -F "image=@path_to_your_image.jpg" -F "question=Your question here"
+
