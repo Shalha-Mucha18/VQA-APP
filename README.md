@@ -1,6 +1,6 @@
 # Visual Question Answering App
 
-![Visual Question Answering](path_to_your_image)
+![Visual Question Answering](https://github.com/Shalha-Mucha18/VQA-APP/blob/main/Sample.png)
 
 This project explores the ViLT (Vision-and-Language Transformer) model from Hugging Face to create a Visual Question Answering App that answers questions about images. We implement the ViLT model in two different ways: as an API using FastAPI and as an interactive app using Streamlit.
 
